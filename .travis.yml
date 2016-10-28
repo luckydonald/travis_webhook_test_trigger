@@ -1,0 +1,23 @@
+install:
+  - echo 'I am installing...'
+  - sleep 5
+ 
+script:
+  - echo 'I am building...'
+  - sleep 5
+  - echo 'I am testing...'
+  - sleep 5
+  - echo 'I am done...'
+
+
+  
+notifications:
+  # https://docs.travis-ci.com/user/notifications#Notifications
+  webhooks:
+    urls:
+      - "https://bot.proxy.bronies.link/travis/webhook/cXWYilmVgsDKbIjS9zQwhB28SdzUHakCzRmMmfXMj1k"
+    on_success: always  # default: always
+    on_failure: always  # default: always
+    on_start: always    # default: never
+    # [always|never|change]  # change means to notify when the build status changes.
+
