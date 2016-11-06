@@ -17,7 +17,7 @@ notifications:
   webhooks:
     urls:
       - "https://bot.proxy.bronies.link/travis/webhook/cXWYilmVgsDKbIjS9zQwhB28SdzUHakCzRmMmfXMj1k"
-      - "https://bot.proxy.bronies.link/travis/webhook/MmXMG1pQlfgn96CEVZ7kJMTwAYIZsbvBOBmtgrXNevc"
+      - "https://bot.proxy.bronies.link/travis_test/webhook/KOeMHkQuHQCr2z26g6JN7P5BgAdQEZ17mJ44GN87IVU"
     on_success: always  # default: always
     on_failure: always  # default: always
     on_start: always    # default: never
