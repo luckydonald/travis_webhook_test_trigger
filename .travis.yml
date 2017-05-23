@@ -18,6 +18,7 @@ notifications:
     urls:
       - "https://integrations.bonbotics.io/travis/webhook/cXWYilmVgsDKbIjS9zQwhB28SdzUHakCzRmMmfXMj1k"
       - "https://bot.proxy.bronies.link/travis_test/webhook/cXWYilmVgsDKbIjS9zQwhB28SdzUHakCzRmMmfXMj1k"
+      - "https://integrations.bonbotics.io/travis_test/webhook/cXWYilmVgsDKbIjS9zQwhB28SdzUHakCzRmMmfXMj1k"
     on_success: always  # default: always
     on_failure: always  # default: always
     on_start: always    # default: never
