@@ -8,7 +8,7 @@ script:
   - echo 'I am testing...'
   - sleep 5
   - echo 'I am done...'
-  - ajs__LITTLEPIP_IS_BEST_PONY_111__kfhaksdfhaksdf
+  - echo 'LITTLEPIP_IS_BEST_PONY_111'
 
 
   
